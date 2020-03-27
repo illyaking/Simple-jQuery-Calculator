@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!--
+File Name: week6.html
+Date: 11/04/18
+Programmer: Illya King
+-->
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Simple jQuery Calculator</title>
+
+        <link rel="stylesheet" href="styles/style.css">
+
+    </head>
+
+    <body id = "myBody">
+
+        <h1 id = "myH1">Untitled</h1>
+        <h2 id = "myH2">Your Name</h2>
+
+        <div>
+
+            <form name="myForm">
+
+                <table id="background">
+
+                    <tr>
+                        <td colspan="2" class="result">a <input type="text" id="a" size="4" value="" /></td>
+                        <td colspan="2" class="result">b <input type="text" id="b" size="4" value="" /></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="Add" class="btn-style num-bg operator" /></td>
+                        <td><input type="button" value="Subtract" class="btn-style num-bg operator" /></td>
+                        <td><input type="button" value="Multiply" class="btn-style num-bg operator" /></td>
+                        <td><input type="button" value="Divide" class="btn-style num-bg operator" /></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="result">Answer (c) <input type="text" value="" id="c" size="12" /></td>
+                        <td colspan="2"><input type="button" value="Clear All" class="btn-style num-bg" id="clear" /></td>
+                    </tr>
+
+                </table>
+                <p></p>
+
+            </form>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/week6.js"></script>
+
+    </body>
+
+</html>
